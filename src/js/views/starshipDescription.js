@@ -30,10 +30,10 @@ export const StarshipDescription = () => {
                         <h1>{starship.name} </h1>
                         <div className="details">
                             <div className="size">
-                                <h4>Height: {starship.height}</h4>
-                                <h4>Gender: {starship.gender}</h4>
-                                <h4>Hair Color: {starship.hair_color}</h4>
-                                <h4>Eye Color: {starship.eye_color}</h4>
+                                <h4>Model: {starship.model}</h4>
+                                <h4>Crew: {starship.crew}</h4>
+                                <h4>Passengers: {starship.passengers}</h4>
+                                <h4>Length: {starship.pilots}</h4>
                             </div>
                         </div>
                     </div>

@@ -30,10 +30,10 @@ export const PlanetDescription = () => {
                         <h1>{planet.name} </h1>
                         <div className="details">
                             <div className="size">
-                                <h4>Height: {planet.height}</h4>
-                                <h4>Gender: {planet.gender}</h4>
-                                <h4>Hair Color: {planet.hair_color}</h4>
-                                <h4>Eye Color: {planet.eye_color}</h4>
+                                <h4>Diameter: {planet.diameter}</h4>
+                                <h4>Gravity: {planet.gravity}</h4>
+                                <h4>Population: {planet.population}</h4>
+                                <h4>Climate: {planet.climate}</h4>
                             </div>
                         </div>
                     </div>
