@@ -9,8 +9,8 @@ export const CharacterCard = () => {
 useEffect(() => {
     async function getCharacters() {
         const response = await fetch("https://www.swapi.tech/api/people");
-        const data = await response.json();
-        setCharacters(data.results);
+        const data = await response.json()
+        setCharacters(data.results)
     }
     getCharacters();
 },
@@ -32,8 +32,8 @@ return (
                         <h5 className="card-title">{character.name}</h5>
                     </div>
                     <div className="Cardbtn">
-                    <Link className="secondpagebutton" to={"/character-description/" + character.uid}>:round_pushpin:Learn More</Link>
-                        <button  className="secondpagebutton" onClick={() => { handleFav(character.name) }}> :love_letter:Favorite </button>
+                    <Link className="secondpagebutton" to={"/character-description/" + character.uid}>📝Details Here!</Link>
+                        <button  className="secondpagebutton" onClick={() => { handleFav(character.name) }}>♥︎Favorite</button>
                     </div>
                 </div>
             ))}

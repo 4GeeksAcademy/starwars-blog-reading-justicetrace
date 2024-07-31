@@ -29,9 +29,9 @@ const Layout = () => {
 					<Routes>
 						<Route path="/welcome" element={<Welcome />} />
 						<Route path="/connection" element={<Connection />} />
-						<Route path="/character-description" element={<CharacterDescription />} />
-						<Route path="/planet-description" element={<PlanetDescription />} />
-						<Route path="/starship-decription" element={<StarshipDescription />} />
+						<Route path="/character-description/:id" element={<CharacterDescription />} />
+						<Route path="/planet-description/:id" element={<PlanetDescription />} />
+						<Route path="/starship-description/:id" element={<StarshipDescription />} />
 						<Route path="/" element={<Home />} />
 						<Route path="/demo" element={<Demo />} />
 						<Route path="/single/:theid" element={<Single />} />

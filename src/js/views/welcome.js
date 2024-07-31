@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
-import {Connection}  from "./Connection";
+import { Connection } from "./Connection";
 export const Welcome = props => {
     const { store, actions } = useContext(Context);
     const params = useParams();
@@ -22,7 +22,7 @@ export const Welcome = props => {
             </section>
             <section className="body">
             <Link to="./Connection">
-                    <button className=" btn btn-warning">button</button>
+                    <button className=" btn btn-warning">Welcome</button>
                 </Link>
             </section >
         </div>

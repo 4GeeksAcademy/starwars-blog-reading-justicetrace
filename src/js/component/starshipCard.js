@@ -32,8 +32,8 @@ return (
                         <h5 className="card-title">{starship.name}</h5>
                     </div>
                     <div className="Cardbtn">
-                    <Link className="secondpagebutton" to={"/starship-description/" + starship.uid}>:round_pushpin:Learn More</Link>
-                        <button  className="secondpagebutton" onClick={() => { handleFav(starship.name) }}> :love_letter:Favorite </button>
+                    <Link className="secondpagebutton" to={"/starship-description/" + starship.uid}>📝Details Here!</Link>
+                        <button  className="secondpagebutton" onClick={() => { handleFav(starship.name) }}>♥︎Favorite</button>
                     </div>
                 </div>
             ))}

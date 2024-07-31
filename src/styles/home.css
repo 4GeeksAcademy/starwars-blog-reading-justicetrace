@@ -1,3 +1,22 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/43/75/73/360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg");
+    background-size: 100%;
+}
+.starwars-logo {
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+}
+.secondpagebutton {
+background-color: gray;
+border-radius: 50%;
+color: yellow;
+font-weight: bold;
+margin: 10px;
+margin-bottom: 15px;
+padding: 25px;
+
+}
 /* welcome starts here  */
 section {
     width: 100%;
@@ -52,4 +71,3 @@ section {
     }
   }
   /* welcome ends here  */
-  
